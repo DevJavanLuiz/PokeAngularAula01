@@ -1,0 +1,17 @@
+<section>
+    <div class="form">
+        <input type="text" name="" id="" #nome>
+        <input type="button" value="Buscar" (click)="getPokemon(nome.value)"> 
+    </div>
+    <div class="card">
+        <figure>
+            <img src="{{ pokemon.url }}" alt="">
+        </figure>
+        <article>
+            <h1>Nome: {{ pokemon.nome }}</h1>
+        </article>
+        <article>
+            <p>ID: {{ pokemon.id }}</p>
+        </article>
+    </div>
+</section>
